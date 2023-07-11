@@ -19,6 +19,24 @@ function generateMarkdown(data) {
 ## Description
 
 ${data.description}
+
+## Installation
+
+${data.installation}
+
+## License 
+
+${data.licenses}
+
+## Credits
+
+${data.credits}
+
+## Tests
+
+${data.tests}
+
+
 `;
 }
 

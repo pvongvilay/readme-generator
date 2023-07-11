@@ -14,8 +14,24 @@ const questions = [ {
     type:'input',
     name:'description',
     message:'Please provide a description on what,why and of how your project came to be'
-},
+},{
+    type:'input',
+    name: 'installation',
+    message:'what are the steps needed to install your application?'
 
+},{
+    type:'input',
+    name: 'licenses',
+    message: 'any licenses used?'
+},{
+    type:'input',
+    name:'credits',
+    message: 'Please list any contributors or collaborators',
+},{
+    type:'input',
+    name: 'tests',
+    message:''
+}
 ];
 
 // TODO: Create a function to write README file
